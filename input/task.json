@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Task1",
+        "id": 1,
+        "resources": {
+            "CLB": 100,
+            "DSP": 5,
+            "BRAM": 10
+        },
+        "relationships": {
+            "Parent": [],
+            "Children": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "name": "Task2",
+        "id": 2,
+        "resources": {
+            "CLB": 50,
+            "DSP": 3,
+            "BRAM": 5
+        },
+        "relationships": {
+            "Parent": [
+                1
+            ],
+            "Children": []
+        }
+    },
+    {
+        "name": "Task3",
+        "id": 3,
+        "resources": {
+            "CLB": 70,
+            "DSP": 2,
+            "BRAM": 8
+        },
+        "relationships": {
+            "Parent": [
+                1
+            ],
+            "Children": []
+        }
+    }
+]

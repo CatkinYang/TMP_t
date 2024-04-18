@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xilinxtool/xilinxtoolsshared/TMP/src/fpga.h
+fstream
+-
+iostream
+-
+memory
+-
+sstream
+-
+string
+-
+vector
+-
+
+/home/xilinxtool/xilinxtoolsshared/TMP/tests/test_fpga.cc
+../src/fpga.h
+/home/xilinxtool/xilinxtoolsshared/TMP/src/fpga.h
+
